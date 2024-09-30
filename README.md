@@ -1,5 +1,4 @@
 #  Optical Character Recognition and Extraction app with ColPali implementation of the new Byaldi library + Huggingface transformers for Qwen2-VL.
-[![Open the App in Streamlit] (link = https://ocr-app-rohit-singh.streamlit.app)]
 
 
 ### How to run it on your own machine
@@ -31,3 +30,4 @@ This README provides a step-by-step guide on how to run OCR App using new Copali
 
 
    ```
+[![Open the App in Streamlit] (link = https://ocr-app-rohit-singh.streamlit.app)]
