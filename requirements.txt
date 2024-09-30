@@ -1,1 +1,7 @@
 streamlit
+pillow
+torch
+byaldi
+git+https://github.com/huggingface/transformers
+qwen-vl-utils
+re
