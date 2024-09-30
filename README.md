@@ -1,19 +1,33 @@
-# 🎈 Blank app template
+#  Optical Character Recognition and Extraction app with ColPali implementation of the new Byaldi library + Huggingface transformers for Qwen2-VL.
+[![Open the App in Streamlit] (link = https://ocr-app-rohit-singh.streamlit.app)]
 
-A simple Streamlit app template for you to modify!
-
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
 
 ### How to run it on your own machine
+This README provides a step-by-step guide on how to run OCR App using Colpali Byaldi and Qwen2-VL models in your device locally.
 
-1. Install the requirements
+### First most step clone the github repo with this link below
+```bash
+  git clone https://github.com/Rohit-515/OCR_app_ColPali_Qwen2VL.git
+```
 
+### **Installation to run app locally**
+1. **Create a Python environment (optional):**
+   ```bash
+   python -m venv myenv
+   source myenv/bin/activate  # On Windows: myenv\Scripts\activate
    ```
-   $ pip install -r requirements.txt
+2. **Install required libraries:**
+   In terminal write this code to install the libraries
+   ```bash
+   pip install -r requirements
    ```
-
-2. Run the app
+3. **Run the app using following command in terminal**
 
    ```
    $ streamlit run streamlit_app.py
+   
+   //use this command if getting Axios403 error
+   $ streamlit run app.py --server.enableXsrfProtection false
+
+
    ```
