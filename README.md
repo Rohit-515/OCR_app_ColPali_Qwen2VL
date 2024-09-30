@@ -3,7 +3,7 @@
 
 
 ### How to run it on your own machine
-This README provides a step-by-step guide on how to run OCR App using Colpali Byaldi and Qwen2-VL models in your device locally.
+This README provides a step-by-step guide on how to run OCR App using new Copali byaldi library for Qwen2-VL model in your device locally.
 
 ### First most step clone the github repo with this link below
 ```bash
