@@ -1,6 +1,6 @@
 import streamlit as st
 from PIL import Image
-from models.qwen_model import load_model, qwen_ocr_extract, filter_text, highlight_text
+from qwen_model import load_model, qwen_ocr_extract, filter_text, highlight_text
 
 
 def main():
